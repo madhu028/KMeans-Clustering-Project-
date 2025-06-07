@@ -14,3 +14,12 @@ This repository contains an example project for performing unsupervised learning
 1. Clone this repository.
 2. Place the `Mall_Customers.csv` file inside the `data/` folder.
 3. Install dependencies:
+
+4. Run the notebook in `notebooks/kmeans_clustering.ipynb` or run the Python script in `src/kmeans_clustering.py`.
+
+## Notes
+
+- The project uses PCA to reduce features to 2D for visualization.
+- Elbow method helps select the optimal number of clusters.
+- Silhouette Score is used to evaluate clustering quality.
+
